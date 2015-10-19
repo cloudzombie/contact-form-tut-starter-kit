@@ -1,0 +1,12 @@
+<template name="dashboard">
+	<div class="container">
+		<div class="col-md-12">
+			{{#if isAdmin}}
+				<h3>Dashboard</h3>
+				{{> adminDashboard}}
+			{{else}}
+				<h1>Whoops, you belong to here! Time to head <a href="/">home!</a></h1>
+			{{/if}}
+		</div>
+	</div>
+</template>

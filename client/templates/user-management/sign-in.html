@@ -1,0 +1,23 @@
+<template name="signIn">
+	<div class="container">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<h4 class="text-center"><strong>SIGN IN</strong></h4>
+			<br>
+			<div class="form-group">
+				<form class="sign-in-form">
+					<label>Email</label>
+					<input type="text" name="username" id="signin-username" class="form-control"/>
+					<br>
+					<label>Password</label>
+					<input type="password" name="password" id="signin-password" class="form-control"/>
+					<a href="/recover-password"><strong><small>Forgot you passowrd?</small></strong></a> - <a href="/sign-up"><strong><small>Not a member? Sign Up!</small></strong></a>
+					<br>
+					<br>
+					<div class="text-center">
+						<button class="sign-in-btn btn btn-success" type="submit">SIGN IN</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</template>

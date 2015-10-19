@@ -1,0 +1,3 @@
+Template.adminDashboard.helpers({
+	
+});
