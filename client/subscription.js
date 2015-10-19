@@ -1,3 +1,1 @@
-Deps.autorun(function() {
-	// Subscriptions
-});
+// Subscriptions
