@@ -1,3 +1,1 @@
-Template.adminDashboard.helpers({
-	
-});
+// Admin Dashboard Helpers

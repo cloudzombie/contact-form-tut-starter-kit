@@ -1,3 +1,1 @@
-Template.adminDashboard.events({
-	
-});
+// Admin Dashboard Events
